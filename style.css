@@ -1,0 +1,38 @@
+body{
+    text-align: center;
+    background-image: url(./IMAGE/house.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#board{
+    width: 540px;
+    height: 540px;
+    background-color: rgba(228, 219, 219, 0.542);
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    border: 3px solid white;
+    border-radius: 25px;
+}
+#board div{
+    padding: 0;
+    margin: 0;
+    /* our board is 540pX 540 divide into 3X3 tiles--> 180X180 per deck*/
+    width: 180px;
+    height: 180px;
+    background-image: url(./IMAGE/chocobi.png);
+    background-size: 170px;
+    background-repeat: no-repeat;
+    text-align: center;
+    bottom: 0;
+}
+#board div img{
+    width: 100px;
+    height: 100px;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+ 
